@@ -1,0 +1,7 @@
+[
+    {
+        "project_name":"Bistro Boss Restaurent Website",
+        "project_desc":"A full-stack restaurant website offering a variety of food menu items. Users must log in before  placing orders. Items added to the cart cannot be duplicated.Also have a secure admin panel for managing food items and users. Integrated Stripe for payment processing.",
+        "tools":""
+    }
+]

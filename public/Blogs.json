@@ -1,0 +1,64 @@
+ [
+    {
+      "id": 1,
+      "title": "Mastering CSS Grid and Flex Layout: Tips and Tricks",
+      "author": "Your Name",
+      "date": "2024-01-04",
+      "category": "Web Design",
+      "image": "https://i.ibb.co/HDvq8Z1/618fa90c201104b94458e1fb-650bfc8df8dd1ee6bac6139b-The-Web-Designer-s-Guide-to-CSS-Grid-OG-Image-46a0.jpg",
+      "content": "A comprehensive guide to mastering CSS Grid Layout. Learn advanced techniques, best practices, and real-world examples to create responsive and efficient layouts.",
+      "tags": ["CSS", "Web Layouts", "Frontend Development"]
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Best Practices for Performance Optimization",
+      "author": "Your Name",
+      "date": "2023-12-20",
+      "category": "Software Development",
+      "image": "https://i.ibb.co/Kyv0Yht/1427866-291c-5.jpg",
+      "content": "Explore the best practices to optimize JavaScript code for better performance. Understand techniques to write efficient and scalable JavaScript applications.",
+      "tags": ["JavaScript", "Performance Optimization", "Code Efficiency"]
+    },
+    {
+      "id": 3,
+      "title": "Responsive Web Design: Strategies and Techniques",
+      "author": "Your Name",
+      "date": "2023-11-15",
+      "category": "Web Development",
+      "image": "https://i.ibb.co/q9hQQYZ/responsive-web-design-1-61f01c4b64c5f-sej.png",
+      "content": "Discover effective strategies and techniques for creating responsive websites. Learn how to design and develop websites that adapt seamlessly across devices.",
+      "tags": ["Responsive Design", "Frontend Development", "UI/UX"]
+    },
+    {
+      "id": 4,
+      "title": "Automated Testing in Agile Software Development",
+      "author": "Your Name",
+      "date": "2023-10-05",
+      "category": "Software Development",
+      "image": "https://i.ibb.co/yNR1YMq/automated-testing.jpg",
+      "content": "Explore the role of automated testing in Agile software development. Learn about different automated testing approaches, tools, and their importance in the development lifecycle.",
+      "tags": ["Automated Testing", "Agile Development", "Quality Assurance"]
+    },
+    {
+      "id": 5,
+      "title": "UX/UI Principles for Effective Software Design",
+      "author": "Your Name",
+      "date": "2023-09-12",
+      "category": "UI/UX",
+      "image": "https://i.ibb.co/23rKvC8/215904879259451.jpg",
+      "content": "Discover essential UX/UI principles crucial for designing user-friendly software. Learn how to implement these principles to create intuitive and engaging user interfaces.",
+      "tags": ["User Experience", "User Interface", "Design Principles"]
+    },
+    {
+      "id": 6,
+      "title": "Optimizing Web Performance with Lazy Loading",
+      "author": "Your Name",
+      "date": "2024-02-15",
+      "category": "Web Development",
+      "image": "https://i.ibb.co/HVvyhds/Portada-Lazy-Loading.jpg",
+      "content": "Learn the art of lazy loading to enhance web performance. Discover how to efficiently load images, scripts, and other resources on your website, reducing initial page load times and improving user experience.",
+      "tags": ["Web Performance", "Lazy Loading", "Frontend Optimization"]
+    }
+    
+  ]
+
