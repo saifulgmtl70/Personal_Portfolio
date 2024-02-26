@@ -1,9 +1,11 @@
 import {  useEffect, useState } from 'react';
 import { CgMenuRight } from 'react-icons/cg';
 import { AiOutlineClose } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { LuMoonStar } from "react-icons/lu";
 import {  MdLightMode, } from "react-icons/md";
+
+import './Header.css'
 
 const Header = ({ isDarkMode, onDarkModeToggle }) => {
 
@@ -38,33 +40,33 @@ const Header = ({ isDarkMode, onDarkModeToggle }) => {
   
 
   return (
-    <header className={`font_source py-2 fixed z-50 w-full ${hasShadow ? 'shadow-lg z-50 bg-opacity-90 bg-[#EDF5FE] dark:bg-[#1E293B] ' : 'text-[#E2E8F0]'}`}>
+    <header className={`font_source py-2 header fixed z-50 w-full ${hasShadow ? 'shadow-lg z-50 bg-opacity-90 bg-[#EDF5FE] dark:bg-[#1E293B] ' : 'text-[#E2E8F0]'}`}>
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
-          <Link to="/" className="cursor-pointer text-[33px] text-[#F22225]  font_inter font-bold">Saiful <span className="text-[#34AEE6] dark:text-[#E2E8F0] ">Islam</span> </Link>
+          <Link to="/" className="cursor-pointer text-[33px] text-[#1BAA80]  font_inter font-bold">Saiful <span className="text-[#34AEE6] dark:text-[#E2E8F0] ">Islam</span> </Link>
           </div>
 
           <div className="md:flex md:items-center md:gap-12">
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex gap-5 text-sm">
                 <li >
-                  <a href="/" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Home</a>
+                  <NavLink to="/" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Home</NavLink>
                 </li>
                 <li >
-                  <a href="#aboutme" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">About Me</a>
+                  <NavLink to="/aboutme" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">About Me</NavLink>
                 </li>
                 <li >
-                  <a href="#resume" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Resume</a>
+                  <NavLink to="/resume" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Resume</NavLink>
                 </li>
                 <li>
-                  <a href="#projects" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Projects</a>
+                  <NavLink to="/projects" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Projects</NavLink>
                 </li>
                 <li >
-                  <a href="#Blog" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Blog</a>
+                  <NavLink to="/blog" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Blog</NavLink>
                 </li>
                 <li >
-                  <a href="#contact" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Contact</a>
+                  <NavLink to="/contact" className="text-[16px] hover:text-[#34AEE6] dark:text-[#E2E8F0] dark:hover:hover-[#34AEE6] transition-all delay-500">Contact</NavLink>
                 </li>
               </ul>
             </nav>
@@ -95,12 +97,12 @@ const Header = ({ isDarkMode, onDarkModeToggle }) => {
       {isMenuOpen && (
         <nav className={`md:hidden w-auto absolute  top-16 left-0 right-0 dark:bg-[#1E293B]  ${hasShadow ? "shadow-lg bg-[#EDF5FE] ":"bg-[#273445] shadow-2xl text-[#fff]"} `}>
           <ul className="flex flex-col items-center border-0 px-20 py-4 my-1 gap-5 text-sm">
-            <li onClick={handleMenuItemClick}><a href="#" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Home</a></li>
-            <li onClick={handleMenuItemClick}><a href="#aboutme" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>About Me</a></li>
-            <li onClick={handleMenuItemClick}><a href="#resume" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Resume</a></li>
-            <li onClick={handleMenuItemClick}><a href="#projects" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Projects</a></li>
-            <li onClick={handleMenuItemClick}><a href="#Blog" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Blog</a></li>
-            <li onClick={handleMenuItemClick}><a href="#contact" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Contact</a></li>
+            <li onClick={handleMenuItemClick}><NavLink to="/" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Home</NavLink></li>
+            <li onClick={handleMenuItemClick}><NavLink to="/aboutme" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>About Me</NavLink></li>
+            <li onClick={handleMenuItemClick}><NavLink to="/resume" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Resume</NavLink></li>
+            <li onClick={handleMenuItemClick}><NavLink to="/projects" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Projects</NavLink></li>
+            <li onClick={handleMenuItemClick}><NavLink to="/Blog" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Blog</NavLink></li>
+            <li onClick={handleMenuItemClick}><NavLink to="/contact" className='text-[#1E293B] dark:text-[#fcfcfc] text-[18px] font-[600]'>Contact</NavLink></li>
           </ul>
         </nav>
       )}

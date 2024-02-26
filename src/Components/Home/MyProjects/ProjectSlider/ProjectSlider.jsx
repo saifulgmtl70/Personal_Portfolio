@@ -35,9 +35,14 @@ const ProjectSlider = () => {
         <div>
             <Carousel responsive={responsive}>
 
-                <div className="" >
+                <div className="" 
+                >
 
-                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border rounded-[4px] relative font_source">
+                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border border-[#122033] rounded-[4px] relative font_source"
+                    data-aos="zoom-in"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                         <figure>
                             <img
                             src="https://i.ibb.co/z4bxmCb/Screenshot-6.png"
@@ -59,9 +64,9 @@ const ProjectSlider = () => {
                                     </Link>
                             </div>
                         </div>
-                        <div className="card-body">
-                            <h2 className="card-title text-[#16304C] dark:text-[#E2E8F0]">Bistro Boss Restaurent Website</h2>
-                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#656a71] dark:text-[#E2E8F0]"> A full-stack restaurant website offering a variety of food menu items. Users must log in before placing orders. Items added to the cart cannot be duplicated.Also have a secure admin panel for managing food items and users. Integrated Stripe for payment processing. </p>
+                        <div className="card-body bg-[#1E293B] ">
+                            <h2 className="card-title text-[#eee]">Bistro Boss Restaurent Website</h2>
+                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#888] dark:text-[#E2E8F0]"> A full-stack restaurant website offering a variety of food menu items. Users must log in before placing orders. Items added to the cart cannot be duplicated.Also have a secure admin panel for managing food items and users. Integrated Stripe for payment processing. </p>
 
                             <div className="card-actions ">
                                 <h2 className="font-bold text-[#2C8EBF] text-[19px]">Tools Used:</h2>
@@ -86,7 +91,11 @@ const ProjectSlider = () => {
                 </div>
 
                 <div>
-                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border rounded-[4px] relative font_source">
+                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border border-[#122033] rounded-[4px] relative font_source"
+                    data-aos="zoom-in"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                         <figure>
                             <img
                             src="https://i.ibb.co/7jVyvH8/luxbeachresort-netlify-app-1.png"
@@ -108,9 +117,9 @@ const ProjectSlider = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="card-body">
-                            <h2 className="card-title text-[#16304C] dark:text-[#E2E8F0]">LuxBeach Resort Website</h2>
-                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#656a71] dark:text-[#E2E8F0]"> A full-stack hotel website offering a variety of hotel rooms. Users must log in before booking rooms. The room which is added to the cart cannot be duplicated. Also included blogs and search filter  </p>
+                        <div className="card-body bg-[#1E293B]">
+                            <h2 className="card-title text-[#eee]">LuxBeach Resort Website</h2>
+                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#888] dark:text-[#E2E8F0]"> A full-stack hotel website offering a variety of hotel rooms. Users must log in before booking rooms. The room which is added to the cart cannot be duplicated. Also included blogs and search filter  </p>
 
                             <div className="card-actions ">
                                 <h2 className="font-bold text-[#2C8EBF] text-[19px]">Tools Used:</h2>
@@ -133,7 +142,11 @@ const ProjectSlider = () => {
 
                 
                 <div>
-                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border rounded-[4px] relative font_source">
+                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border border-[#122033] rounded-[4px] relative font_source"
+                    data-aos="zoom-in"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                         <figure>
                             <img
                             src="https://i.ibb.co/dKdMtKD/flavoure-netlify-app.png"
@@ -155,9 +168,9 @@ const ProjectSlider = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="card-body">
-                            <h2 className="card-title text-[#16304C] dark:text-[#E2E8F0]">FalvoureFesta FoodBevrage Website</h2>
-                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#656a71] dark:text-[#E2E8F0]"> A baisc full-stack foodbevareg website offering a variety of food and bevrage  items. Users must log in before placing orders. Items added to the cart cannot be duplicated. Used jwt and cookies to secure products and users   </p>
+                        <div className="card-body bg-[#1E293B]">
+                            <h2 className="card-title text-[#eee]">FalvoureFesta Website</h2>
+                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#888] dark:text-[#E2E8F0]"> A baisc full-stack foodbevareg website offering a variety of food and bevrage  items. Users must log in before placing orders. Items added to the cart cannot be duplicated. Used jwt and cookies to secure products and users   </p>
 
                             <div className="card-actions ">
                                 <h2 className="font-bold text-[#2C8EBF] text-[19px]">Tools Used:</h2>
@@ -180,7 +193,11 @@ const ProjectSlider = () => {
 
 
                 <div>
-                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border rounded-[4px] relative font_source">
+                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border border-[#122033] rounded-[4px] relative font_source"
+                    data-aos="zoom-in"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                         <figure>
                             <img
                             src="https://i.ibb.co/Z6VYVwm/Screenshot-2.png"
@@ -199,9 +216,9 @@ const ProjectSlider = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="card-body">
-                            <h2 className="card-title text-[#16304C] dark:text-[#E2E8F0]">ExpenseMastery  Website</h2>
-                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#656a71] dark:text-[#E2E8F0]"> A full-stack Expense Tracking website. Users can include and manage their expense and icomes acount here  </p>
+                        <div className="card-body bg-[#1E293B]">
+                            <h2 className="card-title text-[#eee]">ExpenseMastery  Website</h2>
+                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#888] dark:text-[#E2E8F0]"> A full-stack Expense Tracking website. Users can include and manage their expense and icomes acount here  </p>
 
                             <div className="card-actions ">
                                 <h2 className="font-bold text-[#2C8EBF] text-[19px]">Tools Used:</h2>
@@ -224,7 +241,11 @@ const ProjectSlider = () => {
 
 
                 <div>
-                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border rounded-[4px] relative font_source">
+                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border border-[#122033] rounded-[4px] relative font_source"
+                    data-aos="zoom-in"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                         <figure>
                             <img
                             src="https://i.ibb.co/qmZYjrK/educationtraininx-netlify-app.png"
@@ -243,9 +264,9 @@ const ProjectSlider = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="card-body">
-                            <h2 className="card-title text-[#16304C] dark:text-[#E2E8F0]">EduTrainX Website</h2>
-                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#656a71] dark:text-[#E2E8F0]"> A front educational course adn training related website a variety of courses and tarinings. Users must log in before seeing the courses and training.  </p>
+                        <div className="card-body bg-[#1E293B]">
+                            <h2 className="card-title text-[#eee]">EduTrainX Website</h2>
+                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#888] dark:text-[#E2E8F0]"> A front educational course adn training related website a variety of courses and tarinings. Users must log in before seeing the courses and training.  </p>
 
                             <div className=" flex items-start justify-center flex-col">
                                 <h2 className="font-bold text-[#2C8EBF] text-[19px]">Tools Used:  </h2>
@@ -269,7 +290,11 @@ const ProjectSlider = () => {
 
 
                 <div>
-                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border rounded-[4px] relative font_source">
+                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border border-[#122033] rounded-[4px] relative font_source"
+                     data-aos="zoom-in"
+                     data-aos-delay="50"
+                     data-aos-duration="1000"
+                     data-aos-easing="ease-in-out">
                         <figure>
                             <img
                             src="https://i.ibb.co/y50f6ps/project-02.png"
@@ -288,9 +313,9 @@ const ProjectSlider = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="card-body">
-                            <h2 className="card-title text-[#16304C] dark:text-[#E2E8F0]">Edumodo University Website</h2>
-                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#656a71] dark:text-[#E2E8F0]"> A front-end university website. It is just a design base, static landing page. It is cloned design from themforest theme.   </p>
+                        <div className="card-body bg-[#1E293B]">
+                            <h2 className="card-title text-[#eee]">Edumodo University Website</h2>
+                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#888] dark:text-[#E2E8F0]"> A front-end university website. It is just a design base, static landing page. It is cloned design from themforest theme.   </p>
 
                             <div className="flex items-start justify-center flex-col ">
                                 <h2 className="font-bold text-[#2C8EBF] text-[19px]">Tools Used:</h2>
@@ -310,7 +335,11 @@ const ProjectSlider = () => {
                 </div>
 
                 <div>
-                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border rounded-[4px] relative font_source">
+                    <div className="card w-full lg:w-96 bg-base-200 shadow-md border border-[#122033] rounded-[4px] relative font_source"
+                      data-aos="zoom-in"
+                      data-aos-delay="50"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out">
                         <figure>
                             <img
                             src="https://i.ibb.co/QJKCV48/project-03.png"
@@ -329,9 +358,9 @@ const ProjectSlider = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="card-body">
-                            <h2 className="card-title text-[#16304C] dark:text-[#E2E8F0]">MyRestu Website</h2>
-                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#656a71] dark:text-[#E2E8F0]"> A landing page of rstaurent website. It is also a cloning website. It is a static page. Designed for practice purpose.   </p>
+                        <div className="card-body bg-[#1E293B]">
+                            <h2 className="card-title text-[#eee]">MyRestu Website</h2>
+                            <p className="mt-2 line-clamp-3 text-sm/relaxed text-[#888] dark:text-[#E2E8F0]"> A landing page of rstaurent website. It is also a cloning website. It is a static page. Designed for practice purpose.   </p>
 
                             <div className="flex items-start justify-center flex-col">
                                 <h2 className="font-bold text-[#2C8EBF] text-[19px]">Tools Used:</h2>
@@ -349,13 +378,8 @@ const ProjectSlider = () => {
                     </div>
 
                 </div>
-
-
-
-
-
                 
-            </Carousel>;
+            </Carousel>
         </div>
     );
 };

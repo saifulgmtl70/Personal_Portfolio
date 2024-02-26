@@ -1,0 +1,10 @@
+@keyframes fill {
+    from {
+      width: 0;
+    }
+  }
+  
+  .animate-fill {
+    animation: fill 2s ease-in-out forwards;
+  }
+  

@@ -1,11 +1,9 @@
 import { Outlet } from "react-router-dom";
 import { useState, useEffect } from "react";// Adjust the path to your Loader component
 
-import Footer from "../Components/Footer/Footer";
 import './Layout.css';
 import Loader from "../Components/Loader/Loader";
 import Header from "../Components/Header/Header";
-
 
 
 const Layout = () => {
@@ -28,7 +26,7 @@ const Layout = () => {
   };
 
   return (
-    <div className={`transition-colors font_inter ${isDarkMode ? "dark" : ""}`}>
+    <div className={`transition-colors min-vh-100 font_inter ${isDarkMode ? "dark" : ""}`}>
       {isLoading ? (
         // Display the loader while content is loading
         <Loader />
@@ -36,9 +34,8 @@ const Layout = () => {
         // Display the main content when loading is complete
         <>
           <Header isDarkMode={isDarkMode} onDarkModeToggle={toggleDarkMode} />
-          <Outlet />
-          <div className="-mb-10">
-            <Footer></Footer>
+          <div className="min-vh-100">
+              <Outlet />
           </div>
         </>
       )}

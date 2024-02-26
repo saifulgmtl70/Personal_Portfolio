@@ -1,320 +1,108 @@
-
-
-// import { FaHtml5 } from "react-icons/fa6";
-import { Tab } from "rizzui";
-// import './Myskills.css';       mmmmmmmmmmm
-
+import '../AboutUs/About.css';
+import ProgressSkills from './ProgressSkills';
 
 const MySkils = () => {
     return (
-        <section className=" bg-[#FFFFFF] dark:bg-[#1E293B] px-12 py-6" id="resume" >
+        <section className=" about_bg px-10 lg:px-24 py-28 dark:bg-[#1E293B]">
 
-            <div className=" mx-10 mt-5 mb-12 myService_bg relative">
-                <div className='text-start mx-auto'>
-                    <div className="line"></div>
-                    <p className="text-[28px] ms-2  font-[500] text-[#121A2D] dark:text-[#E2E8F0] pl-4">My
-                        <span className="text-[#F22225]"> Skills</span> 
-                    </p>
-                </div>
+            <div className="text-center mb-14">
+                <h2 className='text-[#eee] text-[30px]'> <span className='border-b-2 border-b-[#1BAA80] pb-2'>Resume</span> </h2>
             </div>
 
-        
-            <Tab>
-                <Tab.List >
-                    <Tab.ListItem className="">All</Tab.ListItem>
-                    <Tab.ListItem>Front-end</Tab.ListItem>
-                    <Tab.ListItem>Back-end</Tab.ListItem>
-                    <Tab.ListItem>Tools</Tab.ListItem>
-                </Tab.List>
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
+               
+                <div className="">
+                    {/* <h2 className='text-[#fff] text-[22.5px] leading-[27px]'>My Education</h2> */}
+                    <h2 className='text-[#fff] text-[22.5px] leading-[27px]'>My <span className='border-b-2 border-b-[#34AEE6] pb-2'>Education</span> </h2>
+                </div>
+                  
+                <div className="">
+                    <h2 className='text-[#fff] text-[22.5px] leading-[27px]'>My <span className='border-b-2 border-b-[#34AEE6] pb-2'>Experience</span> </h2>
+                </div>
 
-                <Tab.Panels>
+                <div className="rounded-[3px] border border-[#505e74] p-7"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <span className='bg-[#20c997] text-white text-[14px] leading-[14px] px-3 py-[6px] rounded-[3px] mb-5'>Ongoing</span>
+                    <h2 className='text-[19.689px] leading-[24px] text-[#eee] my-6'>B.Sc in Computer Science & Engineering</h2>
 
-                    <Tab.Panel>
-                        <div className="grid grid-cols-2 lg:grid-cols-5 gap-6">
+                    <h3 className='text-[15] leading-[24px] text-[#F22225] my-4'>Cox'sBazar International University</h3>
+                    <p className='text-[15px] text-[#888]'>Renowned for fostering skilled computer scientists, providing comprehensive education and hands-on experience in the field of computer science.</p>
+                </div>
 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10" 
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/9328YD2/html-5.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">HTML5</h3>
-                            </div>
+                <div className="rounded-[3px] border border-[#505e74] p-7"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <span className='bg-[#20c997] text-white text-[14px] leading-[14px] px-3 py-[6px] rounded-[3px] mb-5'>Ongoing</span>
+                    <h2 className='text-[19.689px] leading-[24px] text-[#eee] my-6'>Front-end Development</h2>
 
-                            
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/MRrHWBd/css-3.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">CSS3</h3>
-                            </div>
+                    <h3 className='text-[15] leading-[24px] text-[#F22225] my-4'>Fiver</h3>
+                    <p className='text-[15px] text-[#888]'>Currently specializing in front-end development at Fiverr, I build modern websites, fix bugs, and contribute to user-centric projects.</p>
+                </div>
 
-                               
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/28hcG6K/bootstrap-stack.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Bootstrap</h3>
-                            </div>
+                <div className="rounded-[3px] border border-[#505e74] p-7"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <span className='bg-[#20c997] text-white text-[14px] leading-[14px] px-3 py-[6px] rounded-[3px] mb-5'>2018-2023</span>
+                    <h2 className='text-[19.689px] leading-[24px] text-[#eee] my-6'>Diploma in Computer Science & Technology</h2>
 
-     
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/VqdJ105/tailwind-css-icon-2048x1229-u8dzt4uh.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Tailwind CSS</h3>
-                            </div>
-
-                            
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/m0cFZ94/material-ui-icon-2048x1626-on580ia9.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Material UI</h3>
-                            </div>
-
- 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/Rbpz4vm/atom.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">React JS</h3>
-                            </div>
-
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/z778nCc/nodejs-icon-449x512-ug3yl6jg.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Node JS</h3>
-                            </div>
-
-                            
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/HHv4XZc/download-removebg-preview.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Express JS</h3>
-                            </div>
-
- 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/B6pq100/mongodb-original-logo-icon-146424.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">MongoDb </h3>
-                            </div>
+                    <h3 className='text-[15] leading-[24px] text-[#F22225] my-4'>Chatogram Polytechninc Institute</h3>
+                    <p className='text-[15px] text-[#888]'>Successfully completed a comprehensive diploma program specializing in computer science and technology at this reputable polytechnic institute.</p>
+                </div>
 
 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/bKjLfBk/png-clipart-logo-computer-icons-php-wm-logo-text-label-thumbnail-removebg-preview.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">PHP </h3>
-                            </div>
+                <div className="rounded-[3px] border border-[#505e74] p-7"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <span className='bg-[#20c997] text-white text-[14px] leading-[14px] px-3 py-[6px] rounded-[3px] mb-5'>2022-2023(4 months)</span>
+                    <h2 className='text-[19.689px] leading-[24px] text-[#eee] my-6'>Internship (Web Development)</h2>
+
+                    <h3 className='text-[15] leading-[24px] text-[#F22225] my-4'>Well Up Technology</h3>
+                    <p className='text-[15px] text-[#888]'>I completed a 4-month web development internship at this company, gaining hands-on experience in front-end technologies and project collaboration.</p>
+                </div>
+
+                <div className="rounded-[3px] border border-[#505e74] p-7"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <span className='bg-[#20c997] text-white text-[14px] leading-[14px] px-3 py-[6px] rounded-[3px] mb-5'>2013-2018</span>
+                    <h2 className='text-[19.689px] leading-[24px] text-[#eee] my-6'>Secondary School Certifiate(SSC)</h2>
+
+                    <h3 className='text-[15] leading-[24px] text-[#F22225] my-4'>Pookkhali Model High Scoool</h3>
+                    <p className='text-[15px] text-[#888]'> Achieved success in the Secondary School Certificate (SSC) examinations from a reputable secondary school with dedication and diligence.</p>
+                </div>
 
 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/rFMgnJ8/firebase-1-logo-png-transparent.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]"> Firebase </h3>
-                            </div>
+                <div className="rounded-[3px] border border-[#505e74] p-7"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <span className='bg-[#20c997] text-white text-[14px] leading-[14px] px-3 py-[6px] rounded-[3px] mb-5'>2020-2021</span>
+                    <h2 className='text-[19.689px] leading-[24px] text-[#eee] my-6'>Computer Operator</h2>
+
+                    <h3 className='text-[15] leading-[24px] text-[#F22225] my-4'>Tahzibul Banat Madrasa</h3>
+                    <p className='text-[15px] text-[#888]'>I previously worked as a computer operator at a this institute, managing computer systems and assisting with technical operations.</p>
+                </div>
+
+            </div>
 
 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/Z1b1vCt/Git-Icon-1788-C-removebg-preview.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]"> Git & Github </h3>
-                            </div>
+            <div className="text-start mt-10 mb-14">
+                <h2 className='text-[#eee] text-[30px]'> My <span className='border-b-2 border-b-[#34AEE6] pb-2'>Skills</span> </h2>
+            </div>
 
+            <ProgressSkills/>
 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/TqMGmCS/netlify-logo-png-transparent.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]"> Netlify </h3>
-                            </div>
-
-
-
-                        </div>
-
-                    </Tab.Panel>
-
-                    <Tab.Panel>
-                        <div className="grid grid-cols-2 lg:grid-cols-5 gap-6">
-
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/9328YD2/html-5.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">HTML5</h3>
-                            </div>
-
-                            
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/MRrHWBd/css-3.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">CSS3</h3>
-                            </div>
-
-                               
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/28hcG6K/bootstrap-stack.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Bootstrap</h3>
-                            </div>
-
-     
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/VqdJ105/tailwind-css-icon-2048x1229-u8dzt4uh.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Tailwind CSS</h3>
-                            </div>
-
-                            
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/m0cFZ94/material-ui-icon-2048x1626-on580ia9.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Material UI</h3>
-                            </div>
-
- 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/Rbpz4vm/atom.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">React JS</h3>
-                            </div>
-
-
-                        </div>
-                    </Tab.Panel>
-
-                    <Tab.Panel>
-                        <div className="grid grid-cols-2 lg:grid-cols-5 gap-6">
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/z778nCc/nodejs-icon-449x512-ug3yl6jg.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Node JS</h3>
-                            </div>
-
-                            
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/HHv4XZc/download-removebg-preview.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">Express JS</h3>
-                            </div>
-
- 
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/B6pq100/mongodb-original-logo-icon-146424.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">MongoDb </h3>
-                            </div>
-
-
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/bKjLfBk/png-clipart-logo-computer-icons-php-wm-logo-text-label-thumbnail-removebg-preview.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]">PHP </h3>
-                            </div>
-
-                        </div>
-                    </Tab.Panel>
-                    
-
-                    <Tab.Panel>
-                        <div className="grid grid-cols-2 lg:grid-cols-5 gap-6">
-                            
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/rFMgnJ8/firebase-1-logo-png-transparent.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]"> Firebase </h3>
-                            </div>
-
-
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/Z1b1vCt/Git-Icon-1788-C-removebg-preview.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]"> Git & Github </h3>
-                            </div>
-
-                            
-                            <div className="border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-10"
-                            data-aos="zoom-in"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                                <img src="https://i.ibb.co/TqMGmCS/netlify-logo-png-transparent.png" className="w-20 h-12 mx-auto" alt="" />
-                                <h3 className="text-center text-[#fff] my-3 font-bold text-[20px]"> Netlify </h3>
-                            </div>
-
-                        </div>
-                    </Tab.Panel>
-
-
-                </Tab.Panels>
-            </Tab>
 
         </section>
     );
