@@ -1,0 +1,64 @@
+.footernav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #222121;
+}
+
+.footer_nav li {
+    position: relative;
+    cursor: pointer;
+}
+
+.footer_nav .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    color: #EAE112;
+    text-align: center;
+    border-radius: 6px;
+    padding: 7px;
+    position: absolute;
+    z-index: 1;
+    bottom: 60%; /* Position the tooltip above the icon */
+    left: 50%;
+    margin-left: -40px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+}
+
+.footer_nav .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Arrow should be at the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.footer_nav .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer_nav li a {
+    color: #eee;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s; /* Adding transition for smooth color change */
+}
+
+/* Change icon color on hover */
+.footer_nav li a:hover,
+.footer_nav li a:focus {
+    color: #EAE112;
+}
+
+/* Change icon color for active route */
+.footer_nav li a.active {
+    color: #EAE112;
+}
