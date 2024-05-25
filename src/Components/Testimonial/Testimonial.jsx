@@ -3,7 +3,7 @@
 
 const Testimonial = () => {
     return (
-        <section className="px-14 py-12">
+        <section className="px-6 lg:px-14 py-12">
             <div className="text-center mb-8 text-[#fff]">
                 <h2 className="text-[25px] text-[#fff] tracking-wider mb-2">TESTIMONIAL</h2>
                 <p className="w-full lg:w-5/12 mx-auto leading-7 tracking-wide">Read trusted reviews from my clients</p>
@@ -671,6 +671,11 @@ const Testimonial = () => {
                     </div>
 
                 </div>
+
+                <h2 className="text-white text-center">
+                   <span className="mr-4 text-2xl">NOTE:</span>These testimonials/reviews are just Sample not real. As I am a fresher front-env developer I ddin't get any reviews yet. Later if I'll get any review from any client then I'll include those reviews. 
+                </h2>
+
             </div>
 
         </section>

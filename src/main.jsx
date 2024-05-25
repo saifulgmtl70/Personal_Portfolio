@@ -8,11 +8,14 @@ import {
 } from "react-router-dom";
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
-import Aboutme from './Components/AboutMe/Aboutme';
+
 import Resume from './Components/Resume/Resume';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/Contact/Contact';
+import About from './Components/AboutMe/About';
+
+
 
 
 
@@ -27,10 +30,9 @@ const router = createBrowserRouter([
         element: <Home/>
       }
       ,
-
       {
         path: '/aboutme',
-        element: <Aboutme/>
+        element: <About/>
       },
 
       {

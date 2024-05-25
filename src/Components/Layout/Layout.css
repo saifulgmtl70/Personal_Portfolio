@@ -17,7 +17,7 @@ font-family: "Pacifico", cursive;
 .main_part{
     background: url(https://i.ibb.co/8PnrG9H/front-end-development.gif);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     /* background-attachment: fixed; */
     background-position: center;
     position: relative;
@@ -52,3 +52,76 @@ font-family: "Pacifico", cursive;
 
 
 
+
+
+
+/* Layout.css */
+
+/* .dark-theme {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Layout.css */
+/* 
+/* Default styles */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poetsen One', sans-serif;
+} */
+
+/* .dark-theme {
+    --bg-color: #1C1C1C;
+    --text-color: #ffffff;
+    --link-color: #EAE112;
+    --sidebar-bg-color: #0E0E0E;
+} */
+
+/* .light-theme {
+    --bg-color: #d3c4c4;
+    --text-color: #222;
+    --link-color: #222;
+    --sidebar-bg-color: #fff;
+} */
+
+/* body.dark-theme {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+} */
+
+/* body.light-theme {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+} */
+
+/* Sidebar specific styles */
+/* .sidemenu {
+    background-color: var(--sidebar-bg-color);
+    color: var(--text-color);
+} */
+
+/* Link styles */
+/* a {
+    color: var(--link-color);
+} */ 
+
+/* Other specific styles, for example: */
+
+
+/* Utility classes */
+
+/* etc. */

@@ -7,11 +7,12 @@ import { FaGithub, FaTwitter } from "react-icons/fa6";
 import { GoHomeFill } from "react-icons/go";
 import { MdContactPhone, MdDisplaySettings } from "react-icons/md";
 import { TbMessageStar } from "react-icons/tb";
-import FooterNav from "../FooterNav/FooterNav";
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import FooterNav from "../FooterNav/FooterNav";
 
 
 
@@ -107,7 +108,7 @@ const Layout = () => {
                             </li>
 
                             <li>
-                                <Link>
+                                <Link to="#">
                                     <FaTwitter className="text-[#fff] hover:text-[#EAE112] text-[20px] font-extralight"/>
                                 </Link>
                             </li>

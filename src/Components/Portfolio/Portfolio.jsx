@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
     return (
-        <section className="px-12 py-14">
+        <section className="px-7 lg:px-12 py-14">
             <div className="text-center mb-8 text-[#fff]">
                 <h2 className="text-[25px] text-[#fff] tracking-wider mb-2">Portfolio</h2>
                 <p className="w-full lg:w-5/12 mx-auto leading-7 tracking-wide">Explore some of my recent projects showcasing my skills in front-end development.</p>
             </div>
 
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pb-6">
 
                 <div className="h-auto rounded-sm bg-[#222121] shadow-xl overflow-hidden transition cursor-pointer flex flex-col"
               >
