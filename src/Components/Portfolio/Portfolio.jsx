@@ -10,8 +10,32 @@ const Portfolio = () => {
 
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pb-6">
 
+                <div className="h-auto rounded-sm bg-[#222121] shadow-xl overflow-hidden transition cursor-pointer flex flex-col">
+                    <div className="hover:relative overflow-hidden duration-1000">
+                        <img src="https://i.ibb.co/7NyfSkB/Screenshot-2.png" className="overflow-hidden hover:scale-105 duration-1000 ease-in-out object-cover" />
+                    </div>
+                    <div className="px-4 py-3 flex-grow">
+                        <h2 className="text-[18px] text-[#EAE112] mb-3">DocHouse</h2>
+                        <p className="text-[14px] text-[#eee] mb-2">A full-stack doctor portal website with diverse medical services and experienced doctor's lsit. Users must be logged in to book an appointment to get service. Integrated Stripe for payment processing.</p>
+                    </div>
+                    <div className="px-4 py-3">
+                        <div className="flex justify-center items-center gap-3">
+                            <Link to="https://github.com/saifulgmtl70/Doc_House_Client" target="_blank">
+                                <button className="px-5 py-2 border border-[#EAE112] transition-all delay-200 hover:bg-[#EAE112] text-[#eee] hover:text-[#222] rounded-md">Client</button>
+                            </Link>
+                            <Link to="https://github.com/saifulgmtl70/Doc_House_Server" target="_blank">
+                                <button className="px-5 py-2 border border-[#EAE112] transition-all delay-200 hover:bg-[#EAE112] text-[#eee] hover:text-[#222] rounded-md">Server</button>
+                            </Link>
+                            <Link to="https://doctorhouse.netlify.app" target="_blank">
+                                <button className="px-5 py-2 border border-[#EAE112] transition-all delay-200 hover:bg-[#EAE112] text-[#eee] hover:text-[#222] rounded-md">Live </button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className="h-auto rounded-sm bg-[#222121] shadow-xl overflow-hidden transition cursor-pointer flex flex-col"
-              >
+                >
                     <div className="hover:relative overflow-hidden duration-1000">
                         <img src="https://i.ibb.co/Z6VYVwm/Screenshot-2.png" className="overflow-hidden hover:scale-105 duration-1000 ease-in-out object-cover" />
                     </div>
@@ -127,26 +151,7 @@ const Portfolio = () => {
                 </div>
 
 
-                <div className="h-auto rounded-sm bg-[#222121] shadow-xl overflow-hidden transition cursor-pointer flex flex-col"
->
-                    <div className="hover:relative overflow-hidden duration-1000">
-                        <img src="https://i.ibb.co/y50f6ps/project-02.png" className="overflow-hidden hover:scale-105 duration-1000 ease-in-out object-cover" />
-                    </div>
-                    <div className="px-4 py-3 flex-grow">
-                        <h2 className="text-[18px] text-[#EAE112] mb-3">Edumodu University</h2>
-                        <p className="text-[14px] text-[#eee] mb-2"> A front-end university website. It is just a design base, static landing page. It is cloned design from themforest theme.</p>
-                    </div>
-                    <div className="px-4 py-3">
-                        <div className="flex justify-center items-center gap-3">
-                            <Link to="https://github.com/azadgmtl/edu.university.git" target="_blank">
-                                <button className="px-5 py-2 border border-[#EAE112] transition-all delay-200 hover:bg-[#EAE112] text-[#eee] hover:text-[#222] rounded-md">Code Repo</button>
-                            </Link>
-                            <Link to="https://azadgmtl.github.io/edu.university" target="_blank">
-                                <button className="px-5 py-2 border border-[#EAE112] transition-all delay-200 hover:bg-[#EAE112] text-[#eee] hover:text-[#222] rounded-md">Live Preview</button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
+                
 
 
             </div>
