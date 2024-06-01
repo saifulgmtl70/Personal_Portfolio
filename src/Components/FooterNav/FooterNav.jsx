@@ -3,7 +3,7 @@ import './FooterNav.css';
 import { FaFileAlt, FaUserCheck } from "react-icons/fa";
 import { GoHomeFill } from "react-icons/go";
 import { MdContactPhone, MdDisplaySettings } from "react-icons/md";
-import { TbMessageStar } from "react-icons/tb";
+import { FaBloggerB } from "react-icons/fa";
 
 const FooterNav = () => {
     return (
@@ -34,8 +34,8 @@ const FooterNav = () => {
              
                 </li>
                 <li className="tooltip">
-                    <NavLink to="testimonial"><TbMessageStar className="text-[#eee] text-[22px] font-bold"/>
-                        <span className="tooltiptext">Testimonial</span>
+                    <NavLink to="testimonial"><FaBloggerB className="text-[#eee] text-[22px] font-bold"/>
+                        <span className="tooltiptext">Blog</span>
                     </NavLink>
                    
                 </li>

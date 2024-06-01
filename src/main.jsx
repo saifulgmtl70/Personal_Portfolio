@@ -11,9 +11,9 @@ import Home from './Components/Home/Home';
 
 import Resume from './Components/Resume/Resume';
 import Portfolio from './Components/Portfolio/Portfolio';
-import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/Contact/Contact';
 import About from './Components/AboutMe/About';
+import Blog from './Components/Blog/Blog';
 
 
 
@@ -46,8 +46,8 @@ const router = createBrowserRouter([
       },
 
       {
-        path: '/testimonial',
-        element: <Testimonial/>
+        path: '/blog',
+        element: <Blog/>
       },
 
       {

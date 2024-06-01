@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poetsen+One&display=swap');
 
 
 .poetsen-one-regular{
@@ -6,12 +6,16 @@
 
 }
   
+
+
+
+.nunito_sans {
+    font-family: "Nunito Sans", sans-serif;
+    
+  }
   
 
-.pacifico-regular {
-font-family: "Pacifico", cursive;
 
-}
   
 
 .main_part{

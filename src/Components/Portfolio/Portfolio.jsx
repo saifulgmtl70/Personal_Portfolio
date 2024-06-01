@@ -26,7 +26,7 @@ const Portfolio = () => {
                             <Link to="https://github.com/saifulgmtl70/Doc_House_Server" target="_blank">
                                 <button className="px-5 py-2 border border-[#EAE112] transition-all delay-200 hover:bg-[#EAE112] text-[#eee] hover:text-[#222] rounded-md">Server</button>
                             </Link>
-                            <Link to="https://doctorhouse.netlify.app" target="_blank">
+                            <Link to="https://dochouse-e305f.web.app" target="_blank">
                                 <button className="px-5 py-2 border border-[#EAE112] transition-all delay-200 hover:bg-[#EAE112] text-[#eee] hover:text-[#222] rounded-md">Live </button>
                             </Link>
                         </div>
